@@ -1,0 +1,243 @@
+/*fonts linked to google fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+  margin: 0px 20px 20px 20px;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(255, 255, 255);
+}
+
+/* make nav bar black*/
+
+.pages ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.pages li {
+  float: left;
+  display: inline;
+  list-style-position: inherit;
+  font-size: 20px;
+}
+
+.pages a {
+  display: block;
+  color: rgba(255, 255, 255);
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+}
+
+header {
+  padding: 50px;
+  margin: 30px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.container-ind {
+  margin-top: 0px;
+  padding-top: 70px;
+  margin-bottom: 50px;
+  padding-bottom: 70px;
+}
+
+.container-ind .row {
+  display: flex;
+}
+
+.container-ind .column {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+.poem {
+  margin: 75px;
+  padding: auto;
+  border: none;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.column art {
+  border: 1px;
+  border-color: #0000FF;
+  height: auto;
+  width: auto;
+}
+
+.column jack {
+  border: 1px;
+  border-color: #0000FF;
+  height: auto;
+  width: auto;
+}
+
+.column musicamp {
+  border: 1px;
+  border-color: #0000FF;
+  height: auto;
+  width: auto;
+}
+
+h1 {
+  text-align: left;
+  padding-left: 10px;
+  margin-top;
+  25%;
+  padding-top: 20px;
+  justify-content: space-between;
+  font-stretch: expanded;
+  font-size: 200%;
+  text-decoration-color: #0020C2;
+}
+
+.about,
+.h1 {
+  padding-bottom: 20%;
+}
+
+.container-ind {
+  padding: auto;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.container-ind .column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.container-ind .row {
+  display: flex;
+}
+
+.container-ind .art {
+  height: relative;
+  margin-top: 20px;
+  padding-right: 20px;
+  width: relative;
+  border: 3px;
+  border-color: #0000FF
+}
+
+.container-ind .jack {
+  height: relative;
+  margin-top: 20px;
+  padding-right: 20px;
+  width: relative;
+  border: 3px;
+  border-color: #0000FF
+}
+
+.container-ind .musicamp {
+  height: relative;
+  margin-top: 20px;
+  padding-right: 20px;
+  width: relative;
+  border: 3px;
+  border-color: #0000FF
+}
+
+.container-sas {
+  padding: auto;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.container-sas,
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.container-sas,
+.row {
+  display: flex;
+}
+
+/* rotate photos by 90 degrees*/
+
+.rotateimg90 {
+  transform: rotate(90deg);
+}
+
+.ab-container {
+  padding: 20px;
+}
+
+.ab-container jackabout {
+  width: 10px;
+  height: 10px;
+  margin-left: 15px;
+  border: 3px;
+  border-color: #0000FF;
+}
+
+.ab-container .i {
+  color: #000080;
+}
+
+.container-sas,
+.offerings {
+  height: relative;
+  margin-top: 20px;
+  padding-right: 20px;
+  width: relative;
+  audio: center;
+  text-align: center;
+}
+
+.container-sas,
+.safe {
+  height: relative;
+  margin-top: 20px;
+  padding-right: 20px;
+  width: relative;
+  audio: center;
+  text-align: center;
+}
+
+.container-sas,
+.mythroat {
+  height: relative;
+  margin-top: 20px;
+  padding: auto;
+  width: relative;
+  audio: center;
+  text-align: center;
+}
+
+/*resize social media icons*/
+
+.social-icons {
+  text-align: center;
+  image-orientation: center;
+  padding-top: 15px;
+}
+
+.social-icons li {
+  display: inline;
+  list-style-type: none;
+}
+
+.social-icons a {
+  border-bottom: none;
+}
+
+footer {
+  position: relative;
+  font-size: 12px;
+  text-align: center;
+  margin: 50% 0% 3% 5%;
+  padding-top: 75px;
+  color: #000080;
+}
